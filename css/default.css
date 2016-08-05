@@ -1,9 +1,16 @@
+body {
+  background-image: url('../img/pattern.png');
+}
 main {
   position:relative;
   width:100%;
   height:300px;
   font-size: 0;
   background-color: lightblue;
+}
+nav {
+  background-image:url('../img/shards_pattern.jpg');
+  background-size: 100px;
 }
 nav ul {
   list-style: none;
@@ -27,7 +34,12 @@ div {
   width:200px;
 }
 #box2 {
-  background-color: green;
+  background-image:url('../img/quack.jpg');
+  /*background-color: green;*/
+  background-size:130%;
+  background-position:50%;
+  background-origin: center;
+  background-repeat:no-repeat;
   right:0;
   top:0;
   bottom:0;
